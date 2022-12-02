@@ -1,0 +1,12 @@
+project_name: Matplotlib Hatch
+repository_url: https://github.com/kolibril13/plywood-gallery-matplotlib-hatch
+user_content_version: 3.5.1 (Matplotlib)
+description: |
+  Cheat sheet gallery for matplotlib Hatch
+favicon: icon.png
+preview_image: https://kolibril13.github.io/plywood-gallery-matplotlib-hatch/preview_image.png
+gallery_parameters_path: gallery_assets/gallery_parameters.json
+
+
+
+

@@ -1,0 +1,201 @@
+{
+  "plywood_metadata": {
+    "plywood_gallery_core_version": "0.0.10"
+  },
+  "plywood_content": {
+    "Import": [
+      {
+        "image_path": "gallery_assets/Import_001_Header1.png",
+        "celltype": "Header",
+        "css": "border: 3px solid #ED6A5A;height: auto; width: 60px;",
+        "code": "import matplotlib.pyplot as plt\nfrom matplotlib.patches import Rectangle"
+      }
+    ],
+    "Single": [
+      {
+        "image_path": "gallery_assets/Single_002_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;/&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_003_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;\\\\&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_004_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;|&#39; \nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_005_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;-&#39; \nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_006_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;+&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_007_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;x&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_008_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;o&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_009_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;O&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_010_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;.&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Single_011_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;*&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#F7F5F3\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      }
+    ],
+    "Double": [
+      {
+        "image_path": "gallery_assets/Double_012_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;//&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_013_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;\\\\\\\\&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_014_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;||&#39; \nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_015_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;--&#39; \nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_016_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;++&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_017_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;xx&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_018_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;oo&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_019_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;OO&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_020_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;..&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Double_021_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;**&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#d3ffce\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      }
+    ],
+    "Mixed": [
+      {
+        "image_path": "gallery_assets/Mixed_022_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;/o&#39;\n\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_023_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;\\\\|&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_024_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;|*&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_025_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;-\\\\&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_026_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;+o&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_027_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h = &#39;x*&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_028_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;o-&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_029_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;O|&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_030_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;O.&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      },
+      {
+        "image_path": "gallery_assets/Mixed_031_entry.png",
+        "celltype": "Normal",
+        "css": "border: 3px solid #007AB8;width:55px",
+        "code": "h =  &#39;*-&#39;\nfig, ax = plt.subplots(figsize=(1, 1),facecolor=\"#FFFF66\")\nax.add_patch(Rectangle((0, 0), 2, 2, fill=False, hatch=h))\nax.axis(&#39;off&#39;)\nax.axis(&#39;equal&#39;)\nplt.title(f\"&#39; {h} &#39;\");"
+      }
+    ]
+  }
+}
